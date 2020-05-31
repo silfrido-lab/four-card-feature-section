@@ -178,6 +178,7 @@ body {
   .u-p {
     max-width: 500px;
     margin: auto;
+    padding-top: 0;
   }
 }
 
