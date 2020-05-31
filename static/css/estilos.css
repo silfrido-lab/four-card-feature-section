@@ -14,6 +14,12 @@
   left: 0;
   border-radius: 8px 8px 0 0;
 }
+@media screen and (min-width: 1024px) {
+  .card {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+}
 .card__sub {
   font-size: 0.8em;
   font-weight: 400;
@@ -37,6 +43,12 @@
   left: 0;
   border-radius: 8px 8px 0 0;
 }
+@media screen and (min-width: 1024px) {
+  .card__builder {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+}
 .card__karma {
   background: var(--very-light-gray);
   padding: 2em;
@@ -53,6 +65,12 @@
   left: 0;
   border-radius: 8px 8px 0 0;
 }
+@media screen and (min-width: 1024px) {
+  .card__karma {
+    grid-column: 2/3;
+    grid-row: 4/6;
+  }
+}
 .card__calculator {
   background: var(--very-light-gray);
   padding: 2em;
@@ -68,6 +86,12 @@
   right: 0;
   left: 0;
   border-radius: 8px 8px 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .card__calculator {
+    grid-column: 3/4;
+    grid-row: 3/5;
+  }
 }
 .card__img {
   display: flex;
@@ -99,10 +123,22 @@ body {
 .grid {
   display: grid;
   grid-row-gap: 25px;
+  grid-column-gap: 25px;
+}
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 330px);
+    justify-content: center;
+  }
 }
 
 .wrapper {
   padding: 5em 1.5em;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 3em;
+  }
 }
 
 .u-wrapper {
@@ -119,6 +155,11 @@ body {
   display: block;
   font-weight: 600;
 }
+@media screen and (min-width: 1024px) {
+  .u-h1 {
+    font-size: 2.4em;
+  }
+}
 
 .u-h2 {
   margin: 0;
@@ -132,6 +173,12 @@ body {
   font-size: 1em;
   padding-top: 0.7em;
   padding-bottom: 3em;
+}
+@media screen and (min-width: 1024px) {
+  .u-p {
+    max-width: 500px;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
