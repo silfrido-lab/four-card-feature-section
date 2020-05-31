@@ -1,0 +1,80 @@
+.card {
+    @extend .sombra;
+    background: var(--very-light-gray);
+    padding: 2em;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    &::before {
+        content: "";
+        height: .3em;
+        position: absolute;
+        background: var(--cyan);
+        top: 0;
+        right: 0;
+        left: 0;
+        border-radius: 8px 8px 0 0;
+    }
+    &__sub {
+        font-size: .8em;
+        font-weight: 400;
+        color: var(--grayish-blue);
+        line-height: 2;
+        margin-top: 0;
+        // border: 1px solid blue;
+    }
+    &__builder {
+        @extend .sombra;
+        background: var(--very-light-gray);
+        padding: 2em;
+        position: relative;
+        border-radius: 8px 8px 8px 8px;
+        &::before {
+            content: "";
+            height: .3em;
+            position: absolute;
+            background: var(--red);
+            top: 0;
+            right: 0;
+            left: 0;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+    &__karma {
+        @extend .sombra;
+        background: var(--very-light-gray);
+        padding: 2em;
+        position: relative;
+        border-radius: 8px 8px 8px 8px;
+        &::before {
+            content: "";
+            height: .3em;
+            position: absolute;
+            background: var(--orange);
+            top: 0;
+            right: 0;
+            left: 0;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+    &__calculator {
+        @extend .sombra;
+        background: var(--very-light-gray);
+        padding: 2em;
+        position: relative;
+        border-radius: 8px 8px 8px 8px;
+        &::before {
+            content: "";
+            height: .3em;
+            position: absolute;
+            background: var(--blue);
+            top: 0;
+            right: 0;
+            left: 0;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

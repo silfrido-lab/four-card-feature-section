@@ -1,0 +1,65 @@
+@import "./card.scss";
+body {
+    // border: 10px solid red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: rgba(185, 187, 196, 0.4);
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: rgb(163, 165, 174);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --fondo: rgba(250, 250, 250);
+}
+
+.sombra {
+    box-shadow: 0px 10px 23px 6px #a3a5ae;
+}
+
+.grid {
+    display: grid;
+    grid-row-gap: 25px;
+}
+
+@media screen and (max-wwidth:1024px) {}
+
+.wrapper {
+    padding: 5em 1.5em;
+}
+
+.u-wrapper {
+    padding: 0 1.5em;
+}
+
+.u-h1 {
+    font-size: 1.5em;
+    line-height: 1.3;
+    // border: 1px solid red;
+    font-weight: 200;
+    text-align: center;
+    span {
+        display: block;
+        font-weight: 600;
+    }
+}
+
+.u-h2 {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.u-p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
+    padding-top: .7em;
+    padding-bottom: 3em;
+    // border: 1px solid red;
+}
