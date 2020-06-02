@@ -26,6 +26,10 @@ body {
     display: grid;
     grid-row-gap: 25px;
     grid-column-gap: 25px;
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(3, 230px);
+        justify-content: center;
+    }
     @media screen and (min-width: 1024px) {
         grid-template-columns: repeat(3, 330px);
         justify-content: center;
@@ -35,6 +39,9 @@ body {
 .wrapper {
     padding: 5em 1.5em;
     @media screen and (min-width: 1024px) {
+        padding: 3em;
+    }
+    @media screen and (min-width: 768px) {
         padding: 3em;
     }
 }
@@ -56,6 +63,9 @@ body {
     @media screen and (min-width: 1024px) {
         font-size: 2.4em;
     }
+    @media screen and (min-width: 768px) {
+        font-size: 2.4em;
+    }
 }
 
 .u-h2 {
@@ -72,6 +82,11 @@ body {
     padding-bottom: 3em;
     // border: 1px solid red;
     @media screen and (min-width: 1024px) {
+        max-width: 500px;
+        margin: auto;
+        padding-top: 0;
+    }
+    @media screen and (min-width: 768px) {
         max-width: 500px;
         margin: auto;
         padding-top: 0;
