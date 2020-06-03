@@ -27,17 +27,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .card {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 2;
-    grid-row: 3/5;
-  }
-}
-
 .card__sub {
   font-size: .8em;
   font-weight: 400;
@@ -65,17 +54,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card__builder {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .card__builder {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -115,17 +93,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .card__karma {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row: 4;
-    -ms-grid-row-span: 2;
-    grid-row: 4/6;
-  }
-}
-
 .card__calculator {
   background: var(--very-light-gray);
   padding: 2em;
@@ -145,17 +112,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card__calculator {
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 1;
-    grid-column: 3/4;
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 2;
-    grid-row: 3/5;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .card__calculator {
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
