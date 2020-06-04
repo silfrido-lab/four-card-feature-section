@@ -125,9 +125,9 @@ body {
   grid-row-gap: 25px;
   grid-column-gap: 25px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(3, 230px);
+    grid-template-columns: repeat(3, 330px);
     justify-content: center;
   }
 }

@@ -18,10 +18,6 @@
         grid-column: 1/2;
         grid-row: 3/5;
     }
-    // @media screen and (min-width:768px) {
-    //     grid-column: 1/2;
-    //     grid-row: 3/5;
-    // }
     &__sub {
         font-size: .8em;
         font-weight: 400;
@@ -50,10 +46,6 @@
             grid-column: 2/3;
             grid-row: 2/4;
         }
-        // @media screen and (min-width:768px) {
-        //     grid-column: 2/3;
-        //     grid-row: 2/4;
-        // }
     }
     &__karma {
         @extend .sombra !optional;
@@ -75,10 +67,6 @@
             grid-column: 2/3;
             grid-row: 4/6;
         }
-        // @media screen and (min-width:768px) {
-        //     grid-column: 2/3;
-        //     grid-row: 4/6;
-        // }
     }
     &__calculator {
         @extend .sombra !optional;
@@ -100,10 +88,6 @@
             grid-column: 3/4;
             grid-row: 3/5;
         }
-        // @media screen and (min-width:768px) {
-        //     grid-column: 3/4;
-        //     grid-row: 3/5;
-        // }
     }
     &__img {
         display: flex;
